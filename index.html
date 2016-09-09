@@ -35,6 +35,16 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="typed.js"></script>
+
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["Hi there,", "Welcome!"],
+        typeSpeed: 0
+      });
+  });
+</script>
   
   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
@@ -47,6 +57,8 @@
         </div>
       </div>
     </nav>
+
+    <div class="container element"></div>
 <!-- <div class="navbar transparent navbar-inverse navbar-fixed-top">
    <nav class="navbar-inner">
    <ul class="nav navbar-nav">
