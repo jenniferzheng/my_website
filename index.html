@@ -41,8 +41,14 @@
   $(function(){
       $(".element").typed({
         strings: ["Hi there,", "Welcome!", "My name is Jennifer Zheng"],
-        typeSpeed: 0,
-        loop: true
+        typeSpeed: -25,
+        // time before backspacing
+        backDelay: 2000,
+        loop: true,
+        // show cursor
+        showCursor: true,
+        // character for cursor
+        cursorChar: "|",
       });
   });
 </script>
