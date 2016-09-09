@@ -13,8 +13,10 @@ body {
 }
 
 .element {
-       margin: auto;
-       font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
 }
 
 .typed-cursor{
