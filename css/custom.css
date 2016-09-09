@@ -11,6 +11,33 @@ body {
     border-radius: 0;
     background-color: rgba(0,0,0,0.5);
 }
+
+.element {
+       margin: auto;
+       font-family: 'Pacifico', cursive;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
 /*.navbar.transparent.navbar-inverse .navbar-inner .nav .navbar-nav {
    background: rgba(0,0,0,0.5);
 }*/
