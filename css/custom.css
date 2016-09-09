@@ -6,6 +6,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.5);
+}
 /*.header{
     background-image: url("../images/headerbackground.png");
     background-size: cover;
