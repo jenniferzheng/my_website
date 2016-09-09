@@ -5,6 +5,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
 }
 .navbar{
     border: none;
@@ -16,7 +20,7 @@ body {
     text-align: center;
     margin: auto;
     font-family: 'Pacifico', cursive;
-    font-size: 100px;
+    font-size: 75px;
 }
 
 .typed-cursor{
