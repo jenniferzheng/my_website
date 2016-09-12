@@ -19,7 +19,7 @@ body {
 .element {
     /*text-align: center;*/
     /*margin: auto;*/
-    padding: 10px;
+    padding: 20px;
     font-family: 'Pacifico', cursive;
     /*font-size: 50px;*/
     color: #000000;
@@ -32,4 +32,9 @@ body {
     bottom: 0px;
     right: 0px;
     /*font-size: 18px;*/
+}
+
+.block {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
 }
