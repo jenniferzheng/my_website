@@ -22,4 +22,5 @@ body {
     font-family: 'Pacifico', cursive;
     /*font-size: 50px;*/
     color: #000000;
+    min-height: 100%;
 }
