@@ -18,7 +18,8 @@ body {
 
 .element {
     /*text-align: center;*/
-    margin: auto;
+    /*margin: auto;*/
+    padding: 10px;
     font-family: 'Pacifico', cursive;
     /*font-size: 50px;*/
     color: #000000;
@@ -28,7 +29,7 @@ body {
 
 .bottomright {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 0px;
+    right: 0px;
     /*font-size: 18px;*/
 }
