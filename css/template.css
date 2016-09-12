@@ -29,18 +29,26 @@ p {
     /*text-align: center;*/
     /*margin: auto;*/
     padding: 20px;
-    font-family: 'Pacifico', cursive;
     /*font-size: 50px;*/
     color: #000000;
-    /*min-height: 100%;*/
+    min-height: 100%;
     position: relative;
+}
+
+.cursive {
+    font-family: 'Pacifico', cursive;
 }
 
 .bottomright {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    /*font-size: 18px;*/
+}
+
+.topleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .block {
