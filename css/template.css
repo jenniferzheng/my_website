@@ -10,10 +10,19 @@ body {
     color: #000000;
 }
 
+p {
+    text-indent: 50px;
+}
+
 .navbar{
     border: none;
     border-radius: 0;
     background-color: rgba(0,0,0,0.5);
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 500px; 
 }
 
 .element {
@@ -35,6 +44,7 @@ body {
 }
 
 .block {
-    background-color: #474e5d; /* Dark Blue */
+    padding: 20px;
+    background-color: #670322; /* Dark rose */
     color: #ffffff;
 }
