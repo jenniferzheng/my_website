@@ -24,3 +24,10 @@ body {
     color: #000000;
     min-height: 100%;
 }
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
