@@ -53,12 +53,18 @@ p {
 
 .lightgreen-block {
     padding: 20px;
-    background-color: #DCEDE5; /* Pastel blue */
+    background-color: #DCEDE5; 
     color: #000000;
 }
 
 .lightgrey-block {
     padding: 20px;
-    background-color: #EDEEEF; /* Pastel blue */
+    background-color: #EDEEEF; 
+    color: #000000;
+}
+
+.lightpink-block {
+    padding: 20px;
+    background-color: #FBDDE3;
     color: #000000;
 }
