@@ -84,7 +84,7 @@ p {
 
 
   visibility: hidden;
-  opacity: 0;
+  /*opacity: 0;*/
 
   /*remove comment if you want a gradual transition between states
   -webkit-transition: visibility opacity 0.2s;
@@ -100,5 +100,5 @@ p {
 
 .img-thumbnail:hover .img-desc {
   visibility: visible;
-  opacity: 1;
+  /*opacity: 1;*/
 }
