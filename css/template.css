@@ -177,6 +177,7 @@ padding:7px 14px;
 .flip-container {
     perspective: 1000px;
     transform-style: preserve-3d;
+    height: 200px;
 }
     /*  UPDATED! flip the pane when hovered */
     .flip-container:hover .back {
